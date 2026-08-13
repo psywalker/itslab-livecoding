@@ -18,7 +18,6 @@ export const Menu = ({ className, ...htmlAttrs }: MenuProps) => {
   const hiddenItems = menuItems.slice(visibleCount);
 
   const calculateVisibleItems = () => {
-    console.log("calculateVisibleItems");
     const menuElement = munuRef.current;
     const measureElement = measureRef.current;
 
