@@ -2,6 +2,22 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-
+  align-items: center;
+  white-space: nowrap;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.Menu--measure {
+  position: absolute;
+  visibility: hidden;
+  pointer-events: none;
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  white-space: nowrap;
 }
